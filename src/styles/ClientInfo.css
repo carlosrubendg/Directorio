@@ -1,0 +1,111 @@
+.ClientInfo {
+  display: inline-block;
+  width: 75%;
+  padding-right: 26px;
+}
+
+.ClientInfo__title h1 {
+  font-size: 2.8rem;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.ClientInfo__info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ClientInfo h2 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin: 26px 0 16px 0;
+}
+
+.ClientInfo__gallery {
+  width: 48%;
+}
+
+.ClientInfo__gallery figure {
+  cursor: pointer;
+}
+
+.ClientInfo__gallery--first img {
+  width: 100%;
+}
+
+.ClientInfo__gallery--second {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ClientInfo__gallery--second figure {
+  width: 24.5%;
+}
+
+.ClientInfo__gallery--second img {
+  width: 100%;
+}
+
+.ClientInfo__data {
+  width: 48%;
+}
+
+.ClientInfo__data img {
+  width: 100%;
+}
+
+.ClientInfo__data p {
+  font-size: 1.6rem;
+}
+
+.ClientInfo__data p:nth-child(2n+3) {
+  margin-top: 16px;
+}
+
+.ClientInfo__data a {
+  color: var(--text);
+}
+
+.ClientInfo__data a:not(:last-child) {
+  margin-right: 16px;
+}
+
+.ClientInfo__data a > i {
+  font-size: 2rem;
+  margin-top: 8px;
+}
+
+.ClientInfo__resume {
+  width: 100%;
+}
+
+.ClientInfo__resume p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.ClientInfo__map iframe {
+  max-width: 100%;
+ }
+
+/* iPad Mini width: 768px */
+@media (max-width: 767px) {
+  .ClientInfo {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+  }
+
+  .ClientInfo__gallery {
+    width: 100%;
+  }
+
+  .ClientInfo__data {
+    width: 100%;
+  }
+
+  .ClientInfo__data p:nth-child(2n+1) {
+    margin-top: 16px;
+  }
+}

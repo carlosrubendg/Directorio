@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="https://i0.wp.com/fashionnews.com.mx/wp-content/uploads/2021/07/fn-fashion-news-logo.png?fit=261%2C212&ssl=1" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <title>Popular Ads</title>
+
+  <style>
+    :root {
+      --white: #eceff1;
+      --red: #b71c1c;
+      --title: #263238;
+      --text: #455a64;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 62.5%;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      background-color: var(--red);
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    .PopularAds {
+      width: 100%;
+      background-color: var(--white);
+      padding-bottom: 52px;
+    }
+
+    .PopularAds a {
+      color: var(--text);
+    }
+
+    .PopularAds__title h1 {
+      font-size: 2.8rem;
+      font-weight: 400;
+      color: var(--title);
+      margin-bottom: 16px;
+    }
+
+    .PopularAds__gallery {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .PopularAds__item {
+      width: 13.5%;
+      font-size: 1.6rem;
+      text-align: center;
+    }
+
+    .PopularAds__item img {
+      width: 100%;
+    }
+
+    /* iPad Mini width: 768px */
+    @media (max-width: 767px) {
+      .PopularAds__gallery {
+        flex-wrap: wrap;
+      }
+
+      .PopularAds__item {
+        width: 48%;
+        margin-bottom: 16px;
+      }
+
+      .PopularAds__item:last-child{
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="PopularAds">
+    <div class="PopularAds__title">
+      <h1>Anuncios populares</h1>
+    </div>
+
+    <div class="PopularAds__gallery">
+      <figure class="PopularAds__item">
+        <a href="">
+          <img src="https://turbologo.com/articles/wp-content/uploads/2019/09/gucci-logo.png.webp" alt="Popular ad" />
+          <figcaption>Tavex</figcaption>
+        </a>
+      </figure>
+
+      <figure class="PopularAds__item">
+        <a href="">
+          <img src="https://turbologo.com/articles/wp-content/uploads/2019/09/gucci-logo.png.webp" alt="Popular ad">
+          <figcaption>Gucci</figcaption>
+        </a>
+      </figure>
+
+      <figure class="PopularAds__item">
+        <a href="">
+          <img src="https://turbologo.com/articles/wp-content/uploads/2019/09/gucci-logo.png.webp" alt="Popular ad">
+          <figcaption>Gucci</figcaption>
+        </a>
+      </figure>
+
+      <figure class="PopularAds__item">
+        <a href="">
+          <img src="https://turbologo.com/articles/wp-content/uploads/2019/09/gucci-logo.png.webp" alt="Popular ad">
+          <figcaption>Gucci</figcaption>
+        </a>
+      </figure>
+
+      <figure class="PopularAds__item">
+        <a href="">
+          <img src="https://turbologo.com/articles/wp-content/uploads/2019/09/gucci-logo.png.webp" alt="Popular ad">
+          <figcaption>Gucci</figcaption>
+        </a>
+      </figure>
+
+      <figure class="PopularAds__item">
+        <a href="">
+          <img src="https://turbologo.com/articles/wp-content/uploads/2019/09/gucci-logo.png.webp" alt="Popular ad">
+          <figcaption>Gucci</figcaption>
+        </a>
+      </figure>
+
+      <figure class="PopularAds__item">
+        <a href="">
+          <img src="https://turbologo.com/articles/wp-content/uploads/2019/09/gucci-logo.png.webp" alt="Popular ad">
+          <figcaption>Gucci</figcaption>
+        </a>
+      </figure>
+    </div>
+  </div>
+</body>
+</html>

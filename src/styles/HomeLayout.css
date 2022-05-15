@@ -1,0 +1,23 @@
+.Main {
+  background-color: var(--white);
+}
+
+.Main__container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 52px 0;
+}
+
+/* max-width size plus margin */
+@media (max-width: 1360px) {
+  .Main__container {
+    margin: 0 40px;
+  }
+}
+
+/* iPad Mini width: 768px */
+@media (max-width: 767px) {
+  .Main__container {
+    margin: 0 20px;
+  }
+}

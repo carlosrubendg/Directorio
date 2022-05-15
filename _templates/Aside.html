@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="http://mezclarte.fashionnews.com.mx/static/media/Mezclarte_logo.5a570e2e3a29cbe595a4.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <title>Aside</title>
+
+  <style>
+    :root {
+      --white: #eceff1;
+      --red: #b71c1c;
+      --title: #263238;
+      --text: #455a64;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 62.5%;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      background-color: var(--red);
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .Aside {
+      display: inline-block;
+      vertical-align: top;
+      width: 25%;
+      background-color: var(--white);
+      padding-left: 26px;
+    }
+
+    .Aside__item {
+      width: 100%;
+    }
+
+    .Aside__item:not(:last-child) {
+      margin-bottom: 52px;
+    }
+
+    .Aside__item img {
+      width: 100%;
+    }
+
+    /* iPad Mini width: 768px */
+    @media (max-width: 767px) {
+      .Aside {
+        width: 100%;
+        max-width: none;
+        padding: 52px 0 0 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <aside class="Aside">
+    <div class="Aside__item">
+      <a href="https://saladeprensa.exintex.com" target="_blank">
+        <img src="https://i0.wp.com/fashionnews.com.mx/wp-content/uploads/2022/01/banner-lateral-exintex-sm.jpeg?w=640&ssl=1" alt="Exintex add banner">
+      </a>
+    </div>
+  </aside>
+</body>
+</html>

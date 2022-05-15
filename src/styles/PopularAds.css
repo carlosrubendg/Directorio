@@ -1,0 +1,47 @@
+.PopularAds {
+  width: 100%;
+  background-color: var(--white);
+  padding-bottom: 52px;
+}
+
+.PopularAds a {
+  color: var(--text);
+}
+
+.PopularAds__title h1 {
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: var(--title);
+  margin-bottom: 16px;
+}
+
+.PopularAds__gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.PopularAds__item {
+  width: 13.5%;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.PopularAds__item img {
+  width: 100%;
+}
+
+/* iPad Mini width: 768px */
+@media (max-width: 767px) {
+  .PopularAds__gallery {
+    flex-wrap: wrap;
+  }
+
+  .PopularAds__item {
+    width: 48%;
+    margin-bottom: 16px;
+  }
+
+  .PopularAds__item:last-child{
+    display: none;
+  }
+}

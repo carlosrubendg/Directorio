@@ -1,0 +1,28 @@
+.Aside {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  background-color: var(--white);
+  padding-left: 26px;
+}
+
+.Aside__item {
+  width: 100%;
+}
+
+.Aside__item:not(:last-child) {
+  margin-bottom: 52px;
+}
+
+.Aside__item img {
+  width: 100%;
+}
+
+/* iPad Mini width: 768px */
+@media (max-width: 767px) {
+  .Aside {
+    width: 100%;
+    max-width: none;
+    padding: 52px 0 0 0;
+  }
+}

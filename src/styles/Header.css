@@ -1,0 +1,174 @@
+.HeaderTop {
+  width: 100%;
+  height: 32px;
+  background-color: var(--red);
+}
+
+.HeaderTop a {
+  color: var(--white);
+  transition: 250ms;
+}
+
+.HeaderTop a:hover {
+  opacity: 0.5;
+  transition: 250ms;
+}
+
+.HeaderTop ul {
+  list-style: none;
+}
+
+.HeaderTop__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.HeaderTop__menu {
+  display: flex;
+  font-size: 1.4rem;
+}
+
+.HeaderTop__menu ul {
+  display: flex;
+}
+
+.HeaderTop__menu li:not(:last-child) {
+  margin-right: 40px;
+}
+
+.HeaderTop__social {
+  display: flex;
+  font-size: 1.8rem;
+}
+
+.HeaderTop__social ul {
+  display: flex;
+}
+
+.HeaderTop__social li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.HeaderMid {
+  width: 100%;
+  height: 150px;
+  padding: 25px 0;
+  background-color: var(--white);
+}
+
+.HeaderMid__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.HeaderMid__logo {
+  width: 125px;
+}
+
+.HeaderMid__logo img {
+  width: 100%;
+}
+
+.HeaderMid__add_banner {
+  width: 775px;
+}
+
+.HeaderMid__add_banner img {
+  width: 100%;
+  max-height: 100px;
+}
+
+.HeaderBot {
+  height: 50px;
+  background-color: var(--white);
+  border-top: 3px solid var(--red);
+  border-bottom: 3px solid var(--red);
+}
+
+.HeaderBot__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.HeaderBot__menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.HeaderBot__menu li:not(:last-child) {
+  margin-right: 40px;
+}
+
+.HeaderBot__menu a {
+  font-size: 1.6rem;
+  color: var(--title);
+  transition: 250ms;
+}
+
+.HeaderBot__menu a:hover {
+  opacity: 0.5;
+  transition: 250ms;
+}
+
+/* max-width size plus margin */
+@media (max-width: 1360px) {
+  .HeaderTop__content {
+    margin: 0 40px;
+  }
+
+  .HeaderMid__content {
+    margin: 0 40px;
+  }
+
+  .HeaderTop__menu li:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
+/* iPad Mini width: 768px */
+@media (max-width: 767px) {
+  .HeaderTop__content {
+    margin: 0 20px;
+  }
+
+  .HeaderMid {
+    height: 225px;
+  }
+
+  .HeaderMid__content {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 20px;
+  }
+
+  .HeaderMid__logo img {
+    height: 100px;
+    width: 100%;
+  }
+
+  .HeaderBot {
+    height: auto;
+  }
+
+  .HeaderBot__menu ul {
+    flex-direction: column;
+    align-items: center;
+    margin: 12px 0;
+  }
+
+  .HeaderBot__menu li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 12px;
+
+  }
+}
